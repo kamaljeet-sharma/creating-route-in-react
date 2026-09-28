@@ -1,5 +1,6 @@
 import React from "react";
-
+import coder from "../../assets/coder.jpg";
+import coder2 from "../../assets/coder2.jpg";
 import { Link } from "react-router-dom";
 
 export default function Home() {
@@ -33,18 +34,18 @@ export default function Home() {
                 </div>
 
                 <div className="absolute inset-0 w-full sm:my-20 sm:pt-1 pt-12 h-full ">
-                    <img className="w-96" src="./src/assets/coder.jpg" alt="image1" />
+                    <img className="w-96" src={coder} alt="image1" />
                 </div>
             </aside>
 
             <div className="grid  place-items-center sm:mt-20">
-                <img className="sm:w-96 w-48" src="./src/assets/coder2.jpg" alt="image2" />
+                <img className="sm:w-96 w-48" src={coder2} alt="image2" />
             </div>
 
             <h1 className="text-center text-2xl sm:text-5xl py-10 font-medium">Basic About Coding</h1>
             <br />
             <p>
-                
+
             </p>
 
         </div>
