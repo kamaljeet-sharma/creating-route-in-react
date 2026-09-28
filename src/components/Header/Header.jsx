@@ -1,5 +1,7 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom"
+import coderLogo from "../../assets/coderLogo.png";
+
 export default function Header() {
     return (
         <header className="shadow sticky z-50 top-0">
@@ -7,11 +9,11 @@ export default function Header() {
                 <div className="flex flex-wrap justify-between items-center mx-auto max-w-7xl">
                     <Link to="/" className="flex items-center">
                         <img
-                            src="./src/assets/coderLogo.png"
+                            src={coderLogo}
                             className="mr-3 h-12"
                             alt="Logo"
                         />
-                        
+
                     </Link>
                     <div className="flex items-center lg:order-2">
                         <Link
